@@ -14,7 +14,7 @@ The .gitignore ignore all the files by default because of a design choice that i
 So if you add a new file or directory to the project root you have to manually say "I use this".</br>
 The pre installed stuff in this repo are already configured to be used so you may rarely use it.</br>
 
-# Disclamer
+# Disclamer - Source files
 Some IDE-s ask to add a new .c/cpp files to the target.</br>
 Unless you know what your doing. don't.</br>
 It's recommended to configure the IDE to stop ask that.</br>
