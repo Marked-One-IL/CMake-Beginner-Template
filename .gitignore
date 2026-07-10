@@ -1,0 +1,20 @@
+# This is template feel free to change stuff your liking.
+# Comments are provided to let understand what each command does.
+# Usually with .gitignore-s we say what files we wish to ignore but each IDE produce different outputs that we don't want.
+# So instead of saying explicitly what we don't want. We say explicitly what we do want so there is never something we never wanted to add. 
+
+# Ignore everything.
+*
+
+# Keep those files.
+!/.gitignore
+!/CMakeLists.txt
+!/README.md
+
+# Keep those directories.
+!/include/
+!/src/
+
+# Keep the content of those directories.
+!/include/**
+!/src/**
