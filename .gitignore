@@ -18,7 +18,3 @@
 # Keep the content of those directories.
 !/include/**
 !/src/**
-
-# Keep empty directories.
-!/include/.gitkeep
-!/src/.gitkeep
