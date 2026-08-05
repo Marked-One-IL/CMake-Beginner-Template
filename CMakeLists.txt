@@ -10,7 +10,7 @@ file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS "${PROJECT_SOURCE_DIR}/src/*.c" "${P
 add_executable(${PROJECT_NAME} ${SOURCES}) # Attach all the source files to an executable with the name of the project.
 
 # C/C++ configurations.
-set(CMAKE_CXX_STANDARD 26) # Use C++26 standard.
+set(CMAKE_CXX_STANDARD 23) # Use C++23 standard.
 set(CMAKE_CXX_STANDARD_REQUIRED OFF) # If C++26 standard is not supported go to the latest supported standard.
 set(CMAKE_CXX_EXTENSIONS OFF) # Remove compiler specific extensions for portability.
 target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/include) # Removed the need to do #include "include/example.h" which let you simply do #include "example.h".
