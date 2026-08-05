@@ -1,7 +1,7 @@
-# This is template feel free to change stuff your liking.
-# Comments are provided to let understand what each command does.
-# Usually with .gitignore-s we say what files we wish to ignore but each IDE produce different outputs that we don't want.
-# So instead of saying explicitly what we don't want. We say explicitly what we do want so there is never something we never wanted to add. 
+# This is a template. Feel free to change stuff to your liking.
+# Comments are provided to help you understand what each command does.
+# Usually, with .gitignore files, we specify which files we want to ignore, but each IDE produces different output that we don't want.
+# So instead of explicitly saying what we don't want, we explicitly say what we do want, so there is never something we never wanted to add.
 
 # Ignore everything.
 *
@@ -15,6 +15,6 @@
 !/include/
 !/src/
 
-# Keep the content of those directories.
+# Keep the contents of those directories.
 !/include/**
 !/src/**
